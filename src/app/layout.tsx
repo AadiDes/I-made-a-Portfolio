@@ -2,6 +2,26 @@ import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 
+export const metadata: Metadata = {
+  title: "Aadi | Machine Learning Architect", // This changes the tab name
+  description: "Portfolio of a CSE student specializing in ML Models and Intelligent Systems.",
+  icons: {
+    icon: "/favicon.ico", // You can also change your tab icon here
+  },
+};
+
+export default function RootLayout({
+  children,
+}: Readonly<{
+  children: React.ReactNode;
+}>) {
+  return (
+    <html lang="en">
+      <body>{children}</body>
+    </html>
+  );
+}
+
 const geistSans = Geist({
   variable: "--font-geist-sans",
   subsets: ["latin"],
