@@ -15,8 +15,8 @@ const geistMono = Geist_Mono({
 
 // 2. Define Metadata (Tab Name and Description)
 export const metadata: Metadata = {
-  title: "Aadi | Machine Learning Architect", // Professional title for your profile [cite: 2025-12-29]
-  description: "Portfolio of a CSE student specializing in ML Models and Intelligent Systems.",
+  title: "Aadi's Portfolio", // Professional title for your profile [cite: 2025-12-29]
+  description: "My React Portfolio.",
   icons: {
     icon: "/favicon.ico", 
   },
