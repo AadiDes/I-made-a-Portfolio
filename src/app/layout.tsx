@@ -3,7 +3,7 @@ import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "Aadi | Machine Learning Architect", // This changes the tab name
+  title: "Aadi's Portfolio", // This changes the tab name
   description: "Portfolio of a CSE student specializing in ML Models and Intelligent Systems.",
   icons: {
     icon: "/favicon.ico", // You can also change your tab icon here
